@@ -621,7 +621,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗（新增 gemini-2.0 谷歌模型以及 gemini-2.0-thinking 慢思考模型，在文学性上有极大提高，慢思考模型的性能也很强。其中思考模型会先生成英文的思考过程，然后才会输出思考结果）",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
